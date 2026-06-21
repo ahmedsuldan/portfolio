@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Hassan Idiris — IT Specialist &amp; Web Designer</title>
+<meta name="description" content="Portfolio rasmi ah oo muujinaya xirfadaha, mashaariicda iyo khibradda IT ee Ahmed Hassan Idiris — Information Technology Specialist & Web Designer.">
+<meta name="theme-color" content="#0a0e16">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Supabase -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+<div id="page-loader">
+  <div class="loader-mono">loading_portfolio<span class="blink">_</span></div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">ahmed<span class="dot">.</span>dev</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <span id="nav-auth-slot"><a href="login.html" class="btn btn-outline btn-sm">Login</a></span>
+      <button class="nav-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-text reveal">
+      <div class="hero-kicker"><span class="pulse"></span> Diyaar u ah mashruucyo cusub</div>
+      <h1>Waxaan dhisaa<br><span class="grad">websites</span> &amp; xal IT ah oo tayo leh.</h1>
+      <p class="hero-role" id="hero-role-text" data-roles='["Information Technology Specialist", "Web Designer", "Graphic Designer", "Data Analysis"]'></p>
+      <p class="lead">Waxaan ahay Ahmed Hassan Idiris, IT Specialist oo leh khibrad Web Design, Graphic Design iyo data Analaysis. Waxaan ku takhasusay isku-darka qoraal-hal-abuur (creativity) iyo xeelad si loo gaaro natiijooyin la taaban karo.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> Eeg Mashaariicda</a>
+        <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-paper-plane"></i> La Xiriir</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>10+</strong><span>AD_PROJECTS</span></div>
+        <div><strong>2+</strong><span>YEARS_EXP</span></div>
+        <div><strong>3</strong><span>LANGUAGES</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="terminal-card">
+        <div class="terminal-head"><span></span><span></span><span></span></div>
+        <div class="terminal-body">
+<div><span class="line-no">1</span><span class="key">const</span> developer = {</div>
+<div><span class="line-no">2</span>&nbsp;&nbsp;<span class="prop">name</span>: <span class="str">"Ahmed Hassan Idiris"</span>,</div>
+<div><span class="line-no">3</span>&nbsp;&nbsp;<span class="prop">role</span>: <span class="str">"IT Specialist"</span>,</div>
+<div><span class="line-no">4</span>&nbsp;&nbsp;<span class="prop">location</span>: <span class="str">"Puntland, Somalia"</span>,</div>
+<div><span class="line-no">5</span>&nbsp;&nbsp;<span class="prop">stack</span>: [<span class="str">"Web"</span>, <span class="str">"Design"</span>, <span class="str">"Sales"</span>],</div>
+<div><span class="line-no">6</span>&nbsp;&nbsp;<span class="prop">available</span>: <span class="key">true</span></div>
+<div><span class="line-no">7</span>};</div>
+        </div>
+      </div>
+      <div class="profile-photo-wrap">
+        <img src="profile.jpg" alt="Sawirka Ahmed Hassan Idiris" onerror="this.src='https://placehold.co/300x300/131a28/00e0c7?text=Photo'">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="container">
+    <div class="eyebrow">about-me</div>
+    <h2 class="section-title reveal">Yaan ahey</h2>
+    <p class="section-sub reveal">Macluumaad kooban oo ku saabsan asal-keyga, waxbarashadayda iyo khibradayda shaqo.</p>
+
+    <div class="about-grid">
+      <div class="about-card reveal">
+        <img src="profile.jpg" alt="Ahmed Hassan Idiris" onerror="this.src='https://placehold.co/400x500/131a28/00e0c7?text=Photo'">
+        <p style="color:var(--text-muted); font-size:0.9rem;">Ahmed Hassan Idiris — IT professional oo go'aansaday inuu Bachelor Degree ku qaato Computer Science, leh xirfado, farsamo, falanqayn, iyo hoggaamin oo aan ku biiriyo bay'adaha teknoolajiyadda casriga ah.</p>
+      </div>
+
+      <div class="reveal">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="t-date">2024</span>
+            <h4>Bachelor University</h4>
+            <p>Bachelor of Computer Science (Information Technology) iyo Bachelor of Social Science (Human Resource Management — HRM).</p>
+          </div>
+          <div class="timeline-item">
+            <span class="t-date">2022 — 2023</span>
+            <h4>Diploma College</h4>
+            <p>Diploma of Web Design iyo Diploma of Nursing.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="t-date">2020</span>
+            <h4>High School</h4>
+            <p>Dhammaystirka waxbarashada dugsiga sare, oo aasaaska u ahaa jaamacadda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAL PROFILE ============ -->
+<section id="profile" style="padding-top:0;">
+  <div class="container">
+    <div class="about-card reveal" style="max-width:none;">
+      <h3 style="font-family:var(--font-display); margin-bottom:1rem; font-size:1.3rem;">Career Objective</h3>
+      <p style="color:var(--text-muted);">In aan si dheeri ah u horumariyo xirfadahayga Computer Science iyo Information Technology, anigoo ka qaybqaadanaya xalal teknoolaji oo hal-abuur leh. Waxaan rabaa inaan ku horumariyo xirfaddayda software engineering, database management, cybersecurity, iyo digital transformation si aan saamayn dhab ah ugu yeesho ururada iyo bulshooyinka.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills">
+  <div class="container">
+    <div class="eyebrow">technical-skills</div>
+    <h2 class="section-title reveal">Xirfadahayga IT</h2>
+    <p class="section-sub reveal">Aagagga aan ku xirfad leeyahay iyo heerka khibradda ee mid kasta.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+        <h4>Web Development</h4>
+        <p>Full-Stack Development, HTML, CSS, JS</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="88"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h4>Software Engineering</h4>
+        <p>Programming Logic &amp; Problem Solving</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="80"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+        <h4>Database Administration</h4>
+        <p>Database Management &amp; Systems</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="78"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+        <h4>UI / UX &amp; Graphic Design</h4>
+        <p>Application Design, Creativity</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="96"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-network-wired"></i></div>
+        <h4>Computer Networking</h4>
+        <p>Networking &amp; System Administration</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="75"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h4>Security System</h4>
+        <p>Security Awareness &amp; Practices</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="70"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <h4>Digital Marketing &amp; Sales</h4>
+        <p>Customer Care, Sales, Advertisements</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="92"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-users"></i></div>
+        <h4>Leadership &amp; Team Management</h4>
+        <p>Team Coordination, Communication Skill</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="85"></div></div>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-icon"><i class="fa-solid fa-cube"></i></div>
+        <h4>3D Printing &amp; Data Analysis</h4>
+        <p>Data Analysts, Creativity of Designs</p>
+        <div class="skill-bar-track"><div class="skill-bar-fill" data-level="72"></div></div>
+      </div>
+    </div>
+
+    <div class="about-card reveal" style="margin-top:var(--space-4); max-width:none;">
+      <h4 style="font-family:var(--font-display); margin-bottom:1rem;">Languages</h4>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem;">
+        <div>
+          <p style="margin-bottom:0.4rem; font-size:0.9rem;">Somali</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="96"></div></div>
+        </div>
+        <div>
+          <p style="margin-bottom:0.4rem; font-size:0.9rem;">English</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="81"></div></div>
+        </div>
+        <div>
+          <p style="margin-bottom:0.4rem; font-size:0.9rem;">Arabic</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-level="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="container">
+    <div class="eyebrow">selected-work</div>
+    <h2 class="section-title reveal">Shaqooyinkayga</h2>
+    <p class="section-sub reveal">Tusaalooyin ka mid ah mashaariicii aan dhammeystiray sidii Web &amp; Graphic Designer. <em style="color:var(--text-dim); font-style:normal;">(Sawirada hoose waa placeholder — waxaad ku beddeli kartaa sawirada dhabta ah ee shaqadaada.)</em></p>
+
+    <div class="projects-filter reveal">
+      <button class="filter-btn active" data-filter="all">Dhammaan</button>
+      <button class="filter-btn" data-filter="web">Web Design</button>
+      <button class="filter-btn" data-filter="design">Graphic Design</button>
+      <button class="filter-btn" data-filter="ads">Advertisement</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal" data-category="web">
+        <div class="project-thumb"><img src="842489d9503a5be9a26769db79765e9b.jpg" alt="TV Station Website"></div>
+        <div class="project-body">
+          <h4>Website TV Maxalli ah</h4>
+          <p>Naqshad website oo loogu talagalay TV maxalli ah, taasoo kordhisay performance-ka iyo traffic-ka website-ka 46%, waxayna ku guulaysatay meesha labaad ee tartanka naqshadaynta website-yada.</p>
+          <div class="tag-row"><span class="tag">Web Design</span><span class="tag">UI/UX</span><span class="tag">Branding</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="web">
+        <div class="project-thumb"><img src="dd3f5ff05c1cd2384c1a644daa3341f3.jpg" alt="Company Website Redesign"></div>
+        <div class="project-body">
+          <h4>Dib-u-naqshadaynta Website Shirkad</h4>
+          <p>Naqshad cusub oo website ah oo aan keligey u sameeyay shirkad, taasoo la doortay oo wali la isticmaalo ilaa hadda.</p>
+          <div class="tag-row"><span class="tag">Web Design</span><span class="tag">Concept Design</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="ads">
+        <div class="project-thumb"><img src="69197422d22e5f290fb452e4bb0d79a5.jpg" alt="Ad Campaigns"></div>
+        <div class="project-body">
+          <h4>10+ Xayaysiisyo (Local &amp; Global)</h4>
+          <p>Kooxda marketing-ka waxaan la shaqeeyay si aan u sameeyo in ka badan 10 mashruuc xayaysiis ah oo loogu talagalay macaamiil maxalli iyo caalami ah.</p>
+          <div class="tag-row"><span class="tag">Graphic Design</span><span class="tag">Marketing</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Eeg</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal" data-category="design">
+        <div class="project-thumb"><img src="0e9882818abaa47d22962c5cec171ef4.jpg" alt="Creative Visuals"></div>
+        <div class="project-body">
+          <h4>Sawirro &amp; Naqshado Hal-abuur leh</h4>
+          <p>Kooxda hal-abuurka waxaan ka caawiyay abuurista sawirro iyo naqshado website oo qurux badan oo soo jiidasho leh.</p>
+          <div class="tag-row"><span class="tag">Graphic Design</span><span class="tag">Creativity</span></div>
+          <div class="project-links">
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Eeg</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience">
+  <div class="container">
+    <div class="eyebrow">work-history</div>
+    <h2 class="section-title reveal">Khibradda Shaqo</h2>
+    <p class="section-sub reveal">Shaqooyinkii aan hore u qabtay iyo mas'uuliyadahaygii.</p>
+
+    <div class="exp-list">
+      <div class="exp-item reveal">
+        <div class="exp-date">2024 — 2025</div>
+        <div class="exp-content">
+          <h4>Somtel Employee</h4>
+          <span class="company">Somtel Network</span>
+          <ul>
+            <li>Waxaan la shaqeeyay kooxda marketing-ka si aan u sameeyo mashaariic kala duwan.</li>
+            <li>6+ bilood waxaan ka shaqeeyay Somtel qaybta Sales iyo Customer Care.</li>
+    
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-date">2023 — 2024</div>
+        <div class="exp-content">
+          <h4>Web Designer</h4>
+          <span class="company">Shirkad</span>
+          <ul>
+            <li>Waxaan la shaqeeyay koox marketing-ka si aan u abuuro 10+ mashruuc xayaysiis ah oo loogu talagalay macaamiil maxalli iyo caalami ah.</li>
+            <li>Waxaan qayb ka ahaa sameynta website weyn, Naqshaddii la sameeyay waa la isticmaalayaa ilaa hadda.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-date">2022 — 2024</div>
+        <div class="exp-content">
+          <h4>Freelance Graphic Designer</h4>
+          <span class="company">Self-Employed</span>
+          <ul>
+            <li>Waxaan dhammeystiray koorso online ah oo ku saabsan web design &amp; management, anigoo helay dhibcaha ugu sarreeya.</li>
+            <li>Waxaan u naqshadeeyay website TV maxalli ah, taasoo kordhisay performance-ka 46% oo ku guuleysatay meesha labaad ee tartanka naqshadaynta.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-date">2023</div>
+        <div class="exp-content">
+          <h4>Creativity (hal-abuur)"</h4>
+          <span class="company">Jet</span>
+          <ul>
+            <li>waxaan ka shaqeynayey ku dhawaad hal sano iyo bar, si iskaa u shaqeyso ah.</li>
+            <li>waxaan sameeyey ku dhawaad 10+ projects noocyo kala duwan ah si khibradeyda shaqo u korto</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CV DOWNLOAD ============ -->
+<section id="cv">
+  <div class="container">
+    <div class="cv-banner reveal">
+      <div>
+        <h3>Ma rabtaa CV-gayga buuxa?</h3>
+        <p>Soo deji nuqulka PDF ee CV-gayga si aad u aragto taariikhda shaqadayda iyo waxbarashadayda oo faahfaahsan.</p>
+      </div>
+      <a href="cv.pdf" download class="btn btn-primary"><i class="fa-solid fa-download"></i> Download CV</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="container">
+    <div class="eyebrow">get-in-touch</div>
+    <h2 class="section-title reveal">La Xiriir</h2>
+    <p class="section-sub reveal">Mashruuc ma leedahay? Ii soo dir fariin, waan kula soo xiriiri doonaa dhowaan.</p>
+
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-regular fa-envelope"></i></div>
+          <div><h5>Email</h5><a href="mailto:ahmetsultan051@gmail.com">ahmetsultan051@gmail.com</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+          <div><h5>Phone</h5><p>+252 90 726 8518</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div><h5>WhatsApp</h5><a href="https://wa.me/252907268518" target="_blank">+252 90 726 8518</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><h5>Location</h5><p>Puntland, Somalia</p></div>
+        </div>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://wa.me/252907268518" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:ahmetsultan051@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <form id="contact-form" class="form-card reveal">
+        <div class="form-group">
+          <label for="c-name">Magaca</label>
+          <input type="text" id="c-name" class="form-control" placeholder="Magacaaga oo buuxa" required>
+        </div>
+        <div class="form-group">
+          <label for="c-email">Email</label>
+          <input type="email" id="c-email" class="form-control" placeholder="email@tusaale.com" required>
+        </div>
+        <div class="form-group">
+          <label for="c-message">Fariinta</label>
+          <textarea id="c-message" class="form-control" placeholder="Qor fariintaada halkan..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          <span class="loader"></span><span class="btn-text"><i class="fa-regular fa-paper-plane"></i> Dir Fariinta</span>
+        </button>
+        <div id="contact-msg" class="form-msg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    © <span class="current-year"></span> Ahmed Hassan Idiris — Built with HTML, CSS, JS &amp; Supabase
+  </div>
+</footer>
+
+<script src="supabase-config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
